@@ -1,21 +1,21 @@
-# N比特币
+# NBTc
 全链比特币核心协议开发和跨链资产互作性基础设施
 
 ## 热门存储库
 - [N比特币](https://github.com/Nbitcoin/Nbitcoin)  
  全链比特币核心协议所有资产的存储库  
  公共  
-  ![星星](https://img.shields.io/github/stars/Nbitcoin/Nbitcoin?style=flat&color=orange)  
-  ![叉](https://img.shields.io/github/forks/Nbitcoin/Nbitcoin?style=flat&color=blue)  
+ ![星星]（https://img.shields.io/github/stars/Nbitcoin/Nbitcoin?style=flat&color=orange） 
+ ![叉]（https://img.shields.io/github/forks/Nbitcoin/Nbitcoin?style=flat&color=blue） 
   ![上次提交](https://img.shields.io/github/last-commit/Nbitcoin/Nbitcoin?style=flat&color=green)  
 
-- [NBTC-核心](https://github.com/Nbitcoin/Nbtc-Core)  
+- [NBTC-核心]（https://github.com/Nbitcoin/Nbtc-Core） 
  跨链比特币互作性的技术规范  
  公共档案  
-  ![星星](https://img.shields.io/github/stars/Nbitcoin/Nbtc-Core?style=flat&color=orange)  
-  ![叉](https://img.shields.io/github/forks/Nbitcoin/Nbtc-Core?style=flat&color=blue)  
+ ![星星]（https://img.shields.io/github/stars/Nbitcoin/Nbtc-Core?style=flat&color=orange） 
+ ![叉]（https://img.shields.io/github/forks/Nbitcoin/Nbtc-Core?style=flat&color=blue） 
   ![上次提交](https://img.shields.io/github/last-commit/Nbitcoin/Nbtc-Core?style=flat&color=green)  
 
 ## 项目状态
-![地位](https://img.shields.io/badge/Status-Developing-brightgreen?style=for-the-badge)
+![地位]（https://img.shields.io/badge/Status-Developing-brightgreen?style=for-the-badge）
 
