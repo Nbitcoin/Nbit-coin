@@ -1,3 +1,4 @@
+
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
 // Copyright (c) 2021-2023 The Bitcoin developers
@@ -66,4 +67,19 @@ inline constexpr uint64_t GetMaxBlockSigChecksCount(uint64_t maxBlockSize) {
 }
 
 /** Whether to do extra (slow) checks at app startup related to ABLA state. */
-inline constexpr bool DEFAULT_ABLA_SLOW_CHECKS = false;
+inline constexpr bool DEFAULT_ABLA_SLOW_CHECKS = false;// --------------- PPOL+PoS 共识机制核心逻辑（头文件） ---------------
+#include <uint256.h>
+#include <util/time.h>
+#include <map>
+
+struct StakingNode {
+    uint256 nodeId;
+    uint64_t stakeAmount;
+    uint64_t lastBlockTime;
+};
+
+extern std::map<uint256, StakingNode> stakingNodes;
+
+bool StakeCoins(uint64_t amount);
+uint256 SelectNextBlockProducer();
+bool VerifyBlockProducer(const uint256& producerId, uint64_t blockTime);
